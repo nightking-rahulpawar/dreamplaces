@@ -1,0 +1,45 @@
+header{
+  display: grid;
+  grid-template-columns: 30% 70%;
+    margin-left: 9%;
+    padding-top: 20px;
+    height:80px;
+   
+  }
+  .nav-links li {
+    display: inline-block;
+    padding:  20px 40px;
+    justify-content: center;
+  }
+ .nav{
+   margin-left: 30%;
+ }
+ a{
+   color:tan;
+   text-decoration: none;
+   list-style: none;
+   font-size: 24px;
+   font-weight: 200;
+   font-family:  Nova Mono;
+ }
+ h1{
+     color:teal;
+   font-family:  Nova Mono;
+   font-size: 40px;
+ }
+ h1:hover{
+   color: tan;
+   transition: .5s;
+ }
+
+ .nav-links li a:hover{
+   color: teal;
+   transition: .5s;
+ }
+.Head{
+  background-color: #24252A;
+}
+
+.active{
+  color: teal;
+}

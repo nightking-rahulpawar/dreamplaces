@@ -1,0 +1,11 @@
+.tourlist{
+  margin :0;
+  padding:10px;
+  min-height:80vh;
+  background: #333;
+ display: grid;
+ grid-template-columns: repeat(3,1fr)  ;
+  
+
+}
+
